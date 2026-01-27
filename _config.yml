@@ -18,13 +18,16 @@ collections:
 
 author:
   name: "Hao (Leo) Mai"
-  avatar: "/assets/images/bio-avatar.png"
+  avatar: "/assets/images/bio-avatar.jpg"
   bio: "I build enterprise AI solutions (3+ years) and deploy production ML on Kubernetes and Databricks with MLflow."
   location: "Ottawa, Canada"
   links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/maihao14"
+      - label: "Email"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "maihaoforgetcode@gmail.com"
+      - label: "GitHub"
+        icon: "fab fa-github"
+        url: "https://github.com/maihao14"
 
 include:
   - _pages
