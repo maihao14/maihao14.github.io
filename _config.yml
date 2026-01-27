@@ -28,6 +28,9 @@ author:
       - label: "GitHub"
         icon: "fab fa-github"
         url: "https://github.com/maihao14"
+      - label: "LinkedIn"
+        icon: "fab fa-linkedin"
+        url: "https://www.linkedin.com/in/hao-mai-328939243/"
 
 include:
   - _pages
