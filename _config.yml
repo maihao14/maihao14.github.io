@@ -24,7 +24,7 @@ author:
   links:
       - label: "Email"
         icon: "fas fa-fw fa-envelope-square"
-        url: "maihaoforgetcode@gmail.com"
+        url: "mailto:maihaoforgetcode@gmail.com"
       - label: "GitHub"
         icon: "fab fa-github"
         url: "https://github.com/maihao14"
