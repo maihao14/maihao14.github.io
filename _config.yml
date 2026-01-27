@@ -11,6 +11,11 @@ plugins:
 minimal_mistakes_skin: "dark"  # try: "air", "contrast", "dark", "mint", "neon", ...
 search: true
 
+collections:
+  portfolio:
+    output: true
+    permalink: /projects/:path/
+
 author:
   name: "Hao (Leo) Mai"
   avatar: "/assets/images/bio-photo.png"
@@ -20,3 +25,5 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/maihao14"
+
+
