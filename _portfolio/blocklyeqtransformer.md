@@ -2,6 +2,7 @@
 title: "BlocklyEQTransformer"
 excerpt: "No-code web interface for training and deploying EQTransformer-based seismic phase pickers."
 collection: portfolio
+layout: single
 # optional:
 # header:
 #   teaser: /assets/images/blocklyeqtransformer.png
@@ -19,7 +20,7 @@ Highlights
 - Build reusable workflows, visualize training, and generate publishable figures
 
 Get started
-- Repository, documentation, and installation: https://github.com/maihao14/BlocklyEQTransformer
+- Repository, documentation, and installation: [BlocklyEQTransformer on GitHub](https://github.com/maihao14/BlocklyEQTransformer)
 
 Credits
 - Hao Mai

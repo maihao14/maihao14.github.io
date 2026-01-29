@@ -2,6 +2,7 @@
 title: "QuakeLabeler"
 excerpt: "Python toolkit for building, labeling, and visualizing seismic training datasets."
 collection: portfolio
+layout: single
 # optional:
 # header:
 #   teaser: /assets/images/quakelabeler.png
@@ -19,7 +20,8 @@ Highlights
 - Operate via an interactive CLI with minimal Python knowledge
 
 Get started
-- Documentation, installation, and scripts: https://maihao14.github.io/QuakeLabeler/
+- Repository: [QuakeLabeler on GitHub](https://github.com/maihao14/QuakeLabeler)
+- Documentation, installation, and scripts: [QuakeLabeler docs](https://maihao14.github.io/QuakeLabeler/)
 - Tip: If your data is local, switch to localmode
 
 Credits
