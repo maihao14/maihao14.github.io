@@ -1,0 +1,56 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes";
+
+/* Project grid polish */
+.layout--collection .entries-grid {
+  gap: 2rem;
+}
+
+.layout--collection .grid__item {
+  margin-bottom: 2rem;
+}
+
+.layout--collection .archive__item {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  padding: 1.25rem 1.25rem 1.5rem;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.layout--collection .archive__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.layout--collection .archive__item-title {
+  line-height: 1.25;
+  margin-top: 0.25rem;
+}
+
+.layout--collection .archive__item-title a {
+  display: block;
+  white-space: normal;
+  overflow: visible;
+  text-wrap: balance;
+}
+
+.layout--collection .archive__item-excerpt {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 768px) {
+  .layout--collection .entries-grid {
+    gap: 1.25rem;
+  }
+
+  .layout--collection .archive__item {
+    padding: 1rem 1rem 1.25rem;
+  }
+}
