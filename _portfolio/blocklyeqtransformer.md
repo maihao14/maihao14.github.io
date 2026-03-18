@@ -1,30 +1,25 @@
 ---
-title: "BlocklyEQTransformer"
-excerpt: "No-code web interface for training and deploying EQTransformer-based seismic phase pickers."
+title: "Blockly Earthquake Transformer"
+excerpt: "Interactive deep-learning platform for configurable seismic phase-picking workflows."
 collection: portfolio
 layout: single
-# optional:
-# header:
-#   teaser: /assets/images/blocklyeqtransformer.png
+classes: wide
+order: 7
 ---
 
-![BlocklyEQTransformer logo](https://github.com/maihao14/BlocklyEQTransformer/raw/main/docs/Images/logo_large.png)
+Blockly Earthquake Transformer is an interactive training platform that makes seismic phase-picking workflows configurable through a guided interface instead of direct code edits.
 
-Blockly Earthquake Transformer (BET) is an open-source, no-code platform for building seismic phase pickers on top of the EQTransformer (EqT) model. It provides an interactive, form-driven workflow so seismologists and developers can configure data, model settings, and training without direct code edits.
+## What it does
 
-Highlights
-- Web-app workflow for detection and phase picking using EqT
-- Upload data and customize model arguments through interactive forms
-- Use pretrained models or retrain with transfer learning and fine-tuning
-- Extend phase types beyond P/S (e.g., Pn, Pg, Sn, Sg) when labeled data is available
-- Build reusable workflows, visualize training, and generate publishable figures
+- Wraps EQTransformer-based training and inference in a form-driven workflow
+- Supports pretrained models, transfer learning, and fine-tuning
+- Extends beyond standard P and S picks when labeled data exists
+- Produces reusable experiments, visualizations, and publishable outputs
 
-Get started
-- Repository, documentation, and installation: [BlocklyEQTransformer on GitHub](https://github.com/maihao14/BlocklyEQTransformer)
+## Why it matters
 
-Credits
-- Hao Mai
-- Pascal Audet
-- S. Mostafa Mousavi
-- Claire Perry
-- Quan Zhang
+The project lowers the barrier between geoscience researchers and deep-learning tooling. It makes configuration, experimentation, and repeatability more accessible to users who care about the scientific problem more than the implementation details.
+
+## Links
+
+- Repository: [BlocklyEQTransformer on GitHub](https://github.com/maihao14/BlocklyEQTransformer)

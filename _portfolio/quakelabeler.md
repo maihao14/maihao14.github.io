@@ -1,29 +1,27 @@
 ---
 title: "QuakeLabeler"
-excerpt: "Python toolkit for building, labeling, and visualizing seismic training datasets."
+excerpt: "Seismic annotation and dataset creation toolbox for AI-ready earthquake research."
 collection: portfolio
 layout: single
-# optional:
-# header:
-#   teaser: /assets/images/quakelabeler.png
+classes: wide
+order: 6
 ---
 
-![QuakeLabeler UI](https://github.com/maihao14/QuakeLabeler/blob/main/docs/Images/QuakeLabeler.png?raw=true)
+QuakeLabeler is a research software project for building, labeling, and inspecting seismic datasets without forcing domain experts through a heavy custom engineering workflow.
 
-QuakeLabeler helps seismologists and developers (no AI specialization required) create, label, and inspect seismic training datasets quickly and independently. It consolidates the full workflow in one place so teams can focus on model development rather than data plumbing.
+## What it does
 
-Highlights
-- Retrieve waveform data directly from data centers
-- Customize seismic samples and auto-build datasets
-- Preprocess, augment, and label data for ML workflows
-- Visualize distributions and dataset quality
-- Operate via an interactive CLI with minimal Python knowledge
+- Retrieves waveform data from seismic data centers
+- Builds custom seismic samples and labeled training sets
+- Supports preprocessing, augmentation, and data inspection for ML workflows
+- Helps researchers validate distributions and dataset quality before modeling
 
-Get started
+## Why it matters
+
+Training data is often the bottleneck in scientific ML. QuakeLabeler reduces the friction between raw seismic data and model-ready datasets so research teams can spend more time iterating on methods instead of building ad hoc tooling.
+
+## Links
+
 - Repository: [QuakeLabeler on GitHub](https://github.com/maihao14/QuakeLabeler)
-- Documentation, installation, and scripts: [QuakeLabeler docs](https://maihao14.github.io/QuakeLabeler/)
-- Tip: If your data is local, switch to localmode
-
-Credits
-- Hao Mai (Developer and Maintainer)
-- Pascal Audet (Developer and Maintainer)
+- Documentation: [QuakeLabeler docs](https://maihao14.github.io/QuakeLabeler/)
+- Related project: [Lina Seismic Playground](https://github.com/maihao14/Lina-Seismic-Playground)

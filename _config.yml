@@ -1,6 +1,6 @@
-title: Hao (Leo) Mai
-subtitle: Ph.D. in Earth Science • Data Scientist • Applied AI Systems
-description: Production ML for Geophysics & Industrial Analytics • UAV Sensing (GPR, Magnetometer, EO/IR) • Satellite Vision • NLP • Time-Series Forecasting • Anomaly Detection
+title: Hao Mai
+subtitle: Applied AI Systems, Machine Learning, and Geoscience
+description: Machine learning-focused data scientist building production AI systems across enterprise NLP, forecasting, remote sensing, and multimodal sensing programs.
 url: "https://maihao14.github.io"
 baseurl: ""
 
@@ -8,8 +8,8 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
-minimal_mistakes_skin: "dark"  # try: "air", "contrast", "dark", "mint", "neon", ...
-search: true
+minimal_mistakes_skin: "air"
+search: false
 
 collections:
   portfolio:
@@ -17,22 +17,26 @@ collections:
     permalink: /projects/:path/
 
 author:
-  name: "Hao (Leo) Mai"
+  name: "Hao Mai"
   avatar: "/assets/images/bio-avatar.jpg"
-  bio: "I build enterprise AI solutions (3+ years) and deploy production ML on Kubernetes and Databricks with MLflow."
+  bio: "Data Scientist building production AI systems across NLP, forecasting, remote sensing, and multimodal ML."
   location: "Ottawa, Canada"
   links:
-      - label: "Email"
-        icon: "fas fa-fw fa-envelope-square"
-        url: "mailto:maihaoforgetcode@gmail.com"
-      - label: "GitHub"
-        icon: "fab fa-github"
-        url: "https://github.com/maihao14"
-      - label: "LinkedIn"
-        icon: "fab fa-linkedin"
-        url: "https://www.linkedin.com/in/hao-mai-328939243/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:maihaoforgetcode@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/maihao14"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/hao-mai-328939243/"
 
 include:
   - _pages
 
-
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: false

@@ -18,6 +18,38 @@ Replace sample content with your own and [configure as necessary](https://mmista
 
 ---
 
+## Local Preview
+
+Install Ruby and Bundler first:
+
+```powershell
+gem install bundler
+```
+
+From this repo, start the local site with:
+
+```powershell
+.\serve.ps1
+```
+
+If gems are not installed yet, the script will run `bundle install` automatically. You can also force that step with:
+
+```powershell
+.\serve.ps1 -Install
+```
+
+By default the site is served at `http://127.0.0.1:4000`.
+
+To override the bind host or port:
+
+```powershell
+.\serve.ps1 -BindHost 127.0.0.1 -Port 4001
+```
+
+On Windows, the local preview script uses `--force_polling` by default so it does not depend on the optional `wdm` gem.
+
+---
+
 ## Troubleshooting
 
 If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
